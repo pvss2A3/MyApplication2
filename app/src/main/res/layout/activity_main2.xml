@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="227dp"
+        android:layout_height="171dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logoo" />
+    <Button
+        android:id="@+id/btn_ghs"
+        android:layout_width="239dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/go_home_safe"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+
+</LinearLayout>
